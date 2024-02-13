@@ -1,0 +1,12 @@
+h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.article {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}

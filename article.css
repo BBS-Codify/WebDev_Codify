@@ -1,0 +1,29 @@
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+}
+
+.heading {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+a {
+    margin-left: 10%;
+    margin-right: 10%;
+}
