@@ -1,12 +1,263 @@
-h1 {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 5em;
-    font-family: 'Times New Roman', Times, serif;
+/* DO NOT TOUCH ANYTHING BELOW THIS POINT */
+
+body {
+    background-color: #101010;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.2dvw;
+    color: #FFFFFF;
+    margin: 0;
 }
 
-.article {
+img:not(.logo):not(.border) {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #FF8181;
+    transition-duration: 200ms;
+}
+
+span { 
+    color: #FF8181;
+    text-decoration: underline;
+}
+
+.logo {
+    max-height: 3em;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #202020;
+    display: grid;
+    grid-template-columns: 0 1fr;
+    z-index: 1;
+}
+
+.nav-buttons {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    justify-content: center;
+    text-align: center;
+    height: 3em;
     margin-left: 10%;
     margin-right: 10%;
-    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+footer {
+    background-color: #202020;
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 2fr 2fr;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+}
+
+.footer-logo {
+    margin-right: 30%;
+    margin-top: -10%;
+}
+
+.footer-logo>p {
+    margin-top: -10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 20%;
+}
+
+/* DO NOT TOUCH ANYTHING ABOVE THIS POINT */
+
+.hero-img {
+    width: 100%;
+    filter: brightness(50%);
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 15em;
+    left: 5em;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8em;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 3em;
+    margin: 0;
+    margin-top: -1%;
+}
+
+.join-button {
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: #FFFFFF;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5% 20% 5% 20%;
+    margin-top: 10%;
+}
+
+.join-button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: 200ms;
+}
+
+.section-title {
+    margin: 8% 15% 5% 15%;
+    font-size: 2.5em;
+    text-shadow: 0.03em 0 #FFFFFF;
+}
+
+.coms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 15% 5% 15%;
+}
+
+.coms>a {
+    margin: 2.5%;
+}
+
+.coms>a>img {
+    border-radius: 15px;
+    filter: brightness(69%);
+}
+
+.coms>a>img:hover {
+    transform:scale(1.05);
+    filter: brightness(100%);
+    transition: 200ms;
+}
+
+.vision {
+    padding: 2% 15% 2% 15%;
+    background-color: #FF8181;
+    font-size: 1.6em;
+    text-align: left;
+    font-style: italic;
+}
+
+.vision-quote {
+    padding-right: 15%;
+    text-align: right;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 15% 10% 15%;
+    column-gap: 10%;
+}
+
+.stats>div {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.stats-img {
+    width: 60%; 
+    border-radius: 50%;
+}
+
+.heads {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 20% 0 20%;
+    column-gap: 10%;
+}
+
+.heads>div {
+    text-align: center;
+    font-size: 2em;
+}
+
+.heads-img {
+    width: 100%; 
+    border-radius: 50%;
+}
+
+.content {
+    margin: 8% 15% 10% 15%;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.breaker {
+    background-color: #FF8181;
+    height: 0.15em;
+    margin: 3.5% 0 3.5% 0;
+}
+
+.page-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.page-desc {
+    font-weight: normal;
+    padding-right: 10%;
+}
+
+.articles>img {
+    border-radius: 1em;
+}
+
+.go-button {
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: #FFFFFF;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 3% 15% 3% 15%;
+    margin-top: 7%;
+}
+
+.go-button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: 200ms;
+}
+
+/* .border-container {
+    width: 100%;
+    height: 10px
+} */
+
+.border {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 20em;
+    object-fit: fill;
 }
