@@ -1,10 +1,8 @@
-/* DO NOT TOUCH ANYTHING BELOW THIS POINT */
-
 body {
     background-color: #101010;
     font-family: "Open Sans";
     font-weight: 700;
-    font-size: 1.2dvw;
+    font-size: 1.3dvw;
     color: #FFFFFF;
     margin: 0;
 }
@@ -30,6 +28,7 @@ span {
 
 .logo {
     max-height: 3em;
+    min-height: 50px;
 }
 
 .nav {
@@ -46,10 +45,11 @@ span {
     grid-template-columns: 10% 10% 10% 10%;
     justify-content: center;
     text-align: center;
-    height: 3em;
+    min-height: 50px;
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
+    font-size: 1rem;
 }
 
 footer {
@@ -61,6 +61,7 @@ footer {
     padding-top: 5%;
     padding-bottom: 5%;
     justify-content: center;
+    font-size: 1rem;
 }
 
 .footer-logo {
@@ -80,6 +81,21 @@ li {
     margin-top: 20%;
 }
 
+@media (max-width: 900px) {
+    body {
+        font-size: 1.8dvw;
+    }
+
+    .nav-buttons {
+        font-size: 16px;
+        column-gap: 10%;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+}
+
 /* DO NOT TOUCH ANYTHING ABOVE THIS POINT */
 
 .hero-img {
@@ -90,7 +106,7 @@ li {
 
 .overlay {
     position: absolute;
-    top: 15em;
+    top: 12em;
     left: 5em;
 }
 
@@ -117,7 +133,7 @@ li {
     color: #FFFFFF;
     font-size: 1.5em;
     font-weight: bold;
-    padding: 5% 20% 5% 20%;
+    padding: 4% 15% 4% 15%;
     margin-top: 10%;
 }
 
@@ -136,7 +152,7 @@ li {
 .coms {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 15% 5% 15%;
+    margin: 0 15% 8% 15%;
 }
 
 .coms>a {
@@ -249,11 +265,6 @@ li {
     transition: 200ms;
 }
 
-/* .border-container {
-    width: 100%;
-    height: 10px
-} */
-
 .border {
     margin-top: 10%;
     margin-bottom: 5%;
@@ -261,3 +272,51 @@ li {
     height: 20em;
     object-fit: fill;
 }
+
+/* Small Viewport Adjustments Below */
+
+@media (max-width: 900px) {
+
+    .overlay {
+        top: 8em;
+    }
+
+    .coms {
+        grid-template-columns: 1fr;
+    }
+
+    .vision {
+        font-size: 2em;
+    }
+
+    .heads {
+        grid-template-columns: 1fr;
+    }
+
+    .articles {
+        grid-template-columns: 1fr;
+        row-gap: 10%;
+        font-size: 1.7em;
+    }
+
+    .breaker {
+        margin: 20% 0 10% 0;
+    }
+
+    .breaker-s {
+        background-color: #FF8181;
+        height: 0.15em;
+        margin: 3.5% 0 3.5% 0;
+    }
+
+    .go-button {
+        margin-top: 2%;
+    }
+
+    .container {
+        margin-bottom: 20%;
+    }
+
+}
+
+/* DO NOT TOUCH ANYTHING BELOW THIS POINT */

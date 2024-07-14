@@ -1,15 +1,13 @@
-/* DO NOT TOUCH ANYTHING BELOW THIS POINT */
-
 body {
     background-color: #101010;
     font-family: "Open Sans";
     font-weight: 700;
-    font-size: 1.2dvw;
+    font-size: 1.3dvw;
     color: #FFFFFF;
     margin: 0;
 }
 
-img:not(.logo) {
+img:not(.logo):not(.border) {
     max-width: 100%;
 }
 
@@ -30,6 +28,7 @@ span {
 
 .logo {
     max-height: 3em;
+    min-height: 50px;
 }
 
 .nav {
@@ -46,10 +45,11 @@ span {
     grid-template-columns: 10% 10% 10% 10%;
     justify-content: center;
     text-align: center;
-    height: 3em;
+    min-height: 50px;
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
+    font-size: 1rem;
 }
 
 footer {
@@ -61,6 +61,7 @@ footer {
     padding-top: 5%;
     padding-bottom: 5%;
     justify-content: center;
+    font-size: 1rem;
 }
 
 .footer-logo {
@@ -80,4 +81,45 @@ li {
     margin-top: 20%;
 }
 
+@media (max-width: 900px) {
+    body {
+        font-size: 1.8dvw;
+    }
+
+    .nav-buttons {
+        font-size: 16px;
+        column-gap: 10%;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+}
+
 /* DO NOT TOUCH ANYTHING ABOVE THIS POINT */
+
+.error, .sorry, .text, .return {
+    text-align: center;
+    display: block;
+    margin: 0;
+}
+
+.error {
+    font-size: 15em;
+}
+
+.text {
+    font-size: 3em;
+    margin-top: -5%;
+}
+
+.return {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 9%;
+    margin-bottom: 14%;
+}
