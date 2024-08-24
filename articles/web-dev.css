@@ -1,0 +1,149 @@
+body {
+    background-color: #101010;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.3dvw;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+img:not(.logo):not(.border) {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #FF8181;
+    transition-duration: 200ms;
+}
+
+span { 
+    color: #FF8181;
+    text-decoration: underline;
+}
+
+.logo {
+    max-height: 3em;
+    min-height: 50px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #202020;
+    display: grid;
+    grid-template-columns: 0 1fr;
+    z-index: 1;
+}
+
+.nav-buttons {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    justify-content: center;
+    text-align: center;
+    min-height: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #202020;
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 2fr 2fr;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.footer-logo {
+    margin-right: 30%;
+    margin-top: -10%;
+}
+
+.footer-logo>p {
+    margin-top: -10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 20%;
+}
+
+@media (max-width: 900px) {
+    body {
+        font-size: 1.8dvw;
+    }
+
+    .nav-buttons {
+        font-size: 16px;
+        column-gap: 10%;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+}
+
+/* DO NOT TOUCH ANYTHING ABOVE THIS POINT */
+
+.section-title {
+    margin: 5% 15% 5% 15%;
+    font-size: 2.5em;
+    text-shadow: 0.03em 0 #FFFFFF;
+}
+
+.intro {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 5%;
+}
+
+.text {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+.back-button {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    background-color: #FF8181;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.2dvw;
+    padding: 2% 10% 2% 10%;
+    max-width: fit-content;
+    border-radius: 69px;
+    margin-top: 5%;
+    border: none;
+}
+
+.back-button:hover {
+    background-color: #FFFFFF;
+    color: #FF8181;
+    transition-duration: 200ms;
+}
+
+.breaker {
+    background-color: #FF8181;
+    height: 0.15em;
+    margin: 0% 15% 3.5% 15%;
+}
+
+/* DO NOT TOUCH ANYTHING BELOW THIS POINT */
