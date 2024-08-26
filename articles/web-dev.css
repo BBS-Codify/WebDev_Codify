@@ -83,7 +83,7 @@ li {
 
 @media (max-width: 900px) {
     body {
-        font-size: 1.8dvw;
+        font-size: 2dvw;
     }
 
     .nav-buttons {
@@ -110,12 +110,14 @@ li {
     display: grid;
     grid-template-columns: 3fr 2fr;
     column-gap: 5%;
+    font-size: 1.2em;
 }
 
 .text {
     margin-top: 3%;
     margin-left: 15%;
     margin-right: 15%;
+    font-size: 1.2em;
     text-align: justify;
 }
 

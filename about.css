@@ -133,6 +133,10 @@ li {
     margin: auto;
 }
 
+.yearpic {
+    transform: scale(1.2);
+}
+
 .year {
     font-size: 2em;
     margin-bottom: -1%;

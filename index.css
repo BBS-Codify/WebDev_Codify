@@ -111,17 +111,17 @@ li {
 }
 
 .title {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Helvetica', Times, serif;
     font-size: 8em;
     margin: 0;
 }
 
 .subtitle {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Helvetica', Times, serif;
     font-weight: normal;
     font-size: 3em;
     margin: 0;
-    margin-top: -1%;
+    margin-top: 0%;
 }
 
 .join-button {
