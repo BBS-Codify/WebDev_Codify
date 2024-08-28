@@ -182,7 +182,7 @@ li {
 section {
     margin: 5% 15% 5% 15%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 4fr 7fr;
     column-gap: 5%;
     row-gap: 5%;
 }
