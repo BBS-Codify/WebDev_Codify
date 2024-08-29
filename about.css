@@ -99,9 +99,10 @@ li {
 /* DO NOT TOUCH ANYTHING ABOVE THIS POINT */
 
 .section-title {
-    margin: 8% 15% 8% 15%;
+    margin: 8% 15% 2% 15%;
     font-size: 2.5em;
     text-shadow: 0.03em 0 #FFFFFF;
+    text-align: center;
 }
 
 .title {
@@ -145,7 +146,7 @@ li {
 }
 
 .container {
-    margin: 10% 15% 5% 15%;
+    margin: 2% 15% 5% 15%;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -183,7 +184,7 @@ li {
 section {
     margin: 5% 15% 5% 15%;
     display: grid;
-    grid-template-columns: 4fr 7fr;
+    grid-template-columns: 4fr 4fr;
     column-gap: 5%;
     row-gap: 5%;
 }
