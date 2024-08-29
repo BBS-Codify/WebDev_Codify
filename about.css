@@ -107,6 +107,7 @@ li {
 .title {
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: center;
 }
 
 .breaker {
@@ -200,4 +201,9 @@ section {
     .timepic {
         width: 30%;
     }
+}
+
+.footer-links {
+    font-size: 16px;
+    font-family: monospace;
 }

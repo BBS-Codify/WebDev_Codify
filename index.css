@@ -273,6 +273,11 @@ li {
     object-fit: fill;
 }
 
+.footer-links {
+    font-size: 16px;
+    font-family: monospace;
+}
+
 /* Small Viewport Adjustments Below */
 
 @media (max-width: 900px) {
